@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Template1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a class="logo_top" href="index.html">ABHISHEK</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>   
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis obcaecati laudantium dignissimos
+                reprehenderit eum architecto beatae ducimus rerum mollitia magnam.</p>
+
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+
+    <section class="Course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur laboriosam dicta perferendis quod?</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea ipsa rerum, voluptate nihil
+                    provident delectus architecto corporis adipisci! Perspiciatis ut id est? Fugiat hic recusandae,
+                    animi vitae dolorum facilis!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea ipsa rerum, voluptate nihil
+                    provident delectus architecto corporis adipisci! Perspiciatis ut id est? Fugiat hic recusandae,
+                    animi vitae dolorum facilis!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea ipsa rerum, voluptate nihil
+                    provident delectus architecto corporis adipisci! Perspiciatis ut id est? Fugiat hic recusandae,
+                    animi vitae dolorum facilis!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur laboriosam dicta perferendis quod?</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+
+                <div class="layer">
+                    <h3>Newyork</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+
+                <div class="layer">
+                    <h3>japan</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur laboriosam dicta perferendis quod?</p>
+
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World class library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque unde totam debitis? Illum sequi
+                    distinctio placeat blanditiis aspernatur id itaque!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque unde totam debitis? Illum sequi
+                    distinctio placeat blanditiis aspernatur id itaque!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy cafe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque unde totam debitis? Illum sequi
+                    distinctio placeat blanditiis aspernatur id itaque!</p>
+            </div>
+
+        </div>
+
+        
+    </section>
+
+
+
+    <section class="cta">
+        <h1>Enroll for our online course</h1>
+        <a href="contactus.html" class="hero-btn">Contact us</a>
+    </section>
+
+
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia accusantium neque cupiditate. Aperiam
+            nobis porro, id magni iste voluptatibus quasi.</p>
+        <div class="icons">
+            <i class="fas fa-facebook"></i>
+            <i class="fas fa-twitter"></i>
+            <i class="fas fa-youtube"></i>
+            <i class="fas fa-instagram"></i>
+        </div>
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="style.js"></script>
+</body>
+
+</html>
